@@ -1,7 +1,10 @@
 package ar.edu.unnoba.ppc.dfernandez.tp_final_ppc_unnoba;
-
+//https://developer.android.com/training/data-storage/shared-preferences#java
+//https://www.tutorialspoint.com/android/android_session_management.htm
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,38 +18,39 @@ import java.util.Map;
 
 public class LoginActivity extends AppCompatActivity implements View.OnClickListener {
     EditText user, password;
-    Button ingresar,registrar_nuevo;
+    Button ingresar;
+    //Button registrar_nuevo;
     AlertDialogManager alert = new AlertDialogManager();
-    SessionManager session;
-    HashMap<String,String> users = new HashMap<>();
+    SharedPreferences sharedPreferences;
+    public static final String PREFERENCES = "preferences";
 
-    public HashMap<String,String> getUsers(){
+    //SessionManager session;
+    /*public HashMap<String,String> getUsers(){
         return users;
-    }
+    }*/
+    //HashMap<String,String> users = new HashMap<>();
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-
-        // Session Manager
-        session = new SessionManager(getApplicationContext());
-        if (session.isLoggedIn()){
-            startActivity(new Intent(LoginActivity.this, MainActivity.class));
-        }
-
-        // Email, Password input text
         user = (EditText) findViewById(R.id.user);
         password = (EditText) findViewById(R.id.password);
-
-        Toast.makeText(getApplicationContext(), "User Login Status: " + session.isLoggedIn(), Toast.LENGTH_LONG).show();
-
-        // Login button
         ingresar = (Button) findViewById(R.id.ingresar);
-        registrar_nuevo = (Button) findViewById(R.id.registrar_nuevo);
-        // Login button click event
+        //Toast.makeText(getApplicationContext(), "User Login Status: " + session.isLoggedIn(), Toast.LENGTH_LONG).show();
+        //registrar_nuevo = (Button) findViewById(R.id.registrar_nuevo);
         ingresar.setOnClickListener(this);
-        registrar_nuevo.setOnClickListener(this);
+        //registrar_nuevo.setOnClickListener(this);
+        sharedPreferences = getSharedPreferences(PREFERENCES, Context.MODE_PRIVATE);
+
         //users.put("admin","unnoba");
+        // Session Manager
+        /*session = new SessionManager(getApplicationContext());
+        if (session.isLoggedIn()){
+            startActivity(new Intent(LoginActivity.this, MainActivity.class));
+        }*/
+
     }
 
     @Override
@@ -55,16 +59,19 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.ingresar:
                 String username = user.getText().toString();
                 String user_password = password.getText().toString();
-                System.out.println(users.toString());
 
                 // Verificar si se ingreso usuario y contraseña
                 if(username.trim().length() > 0 && user_password.trim().length() > 0){
-                    System.out.println(users.containsKey(username));
-                    System.out.println(users.get(username));
-
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putString("user",username);
+                    editor.putString("password",user_password);
+                    editor.commit();
+                    Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                    startActivity(i);
+                    break;
 
                     //validar los datos ingresados
-                    if(users.containsKey(username) && user_password.equals(users.get(username))){
+                    /*if(users.containsKey(username) && user_password.equals(users.get(username))){
 
                         session.createLoginSession(username, user_password);
 
@@ -72,13 +79,13 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         Intent i = new Intent(getApplicationContext(), MainActivity.class);
                         startActivity(i);
                         finish();
-                        break;
+                        break;*/
 
-                    }else{
+                    /*}else{
                         // no coinciden los datos
                         alert.showAlertDialog(LoginActivity.this, "Fallo el login..", "El usuario o la contraseña es incorrecto", false);
                         break;
-                    }
+                    }*/
                 }else{
                     // el usuario no ingreso nada
                     // mostrar una alerta solicitando los datos
@@ -86,7 +93,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     break;
                 }
 
-            case R.id.registrar_nuevo:
+            /*case R.id.registrar_nuevo:
                 Intent i = new Intent(getApplicationContext(), SignInActivity.class);
                 ArrayList<String> actual_users = new ArrayList<>();
                 for(Map.Entry entry: users.entrySet()){
@@ -94,12 +101,12 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 }
                 i.putStringArrayListExtra("actualUsers",actual_users);
                 startActivityForResult(i,1);
-                break;
+                break;*/
         }
 
     }
 
-    @Override
+    /*@Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         switch (requestCode){
             case 1:
@@ -114,6 +121,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     alert.showAlertDialog(LoginActivity.this, "Atencion!", "Se salio sin registrar un nuevo usuario", false);
                 }
         }
-    }
+    }*/
 }
 
