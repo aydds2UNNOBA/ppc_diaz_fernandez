@@ -1,7 +1,9 @@
 package ar.edu.unnoba.ppc.dfernandez.tp_final_ppc_unnoba;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,7 +17,8 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
     Button registrar;
     //String newUsername,newUsernamePassword;
     AlertDialogManager alert = new AlertDialogManager();
-
+    SharedPreferences sharedPreferences;
+    //SharedPreferences.Editor editor = sharedPreferences.edit();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,17 +32,28 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
 
     @Override
     public void onClick(View v) {
+        sharedPreferences = getSharedPreferences(LoginActivity.S_PREFERENCES, Context.MODE_PRIVATE);
+
         switch (v.getId()){
             case R.id.registrar:
                 if(verifyNewUser()){
-                    ArrayList<String> newUserData = new ArrayList<>();
-                    newUserData.add(0,new_user.getText().toString());
-                    newUserData.add(1,new_user_password.getText().toString());
-                    Intent returnIntent = new Intent();
-                    returnIntent.putStringArrayListExtra("newUser",newUserData);
-                    setResult(Activity.RESULT_OK,returnIntent);
+                    //Intent i = new Intent();
+                    SharedPreferences.Editor editor = sharedPreferences.edit();
+                    editor.putString(new_user.getText().toString(),new_user_password.getText().toString());
+                    //editor.putString("password",user_password);
+                    editor.apply();
+                    //Intent i = new Intent(getApplicationContext(), MainActivity.class);
+                    //startActivity(i);
                     finish();
                     break;
+
+                    //ArrayList<String> newUserData = new ArrayList<>();
+                    //newUserData.add(0,new_user.getText().toString());
+                    //newUserData.add(1,new_user_password.getText().toString());
+                    //returnIntent.putStringArrayListExtra("newUser",newUserData);
+                    //setResult(Activity.RESULT_OK,returnIntent);
+                    //finish();
+                    //break;
                 }else{
                     break;
                 }
@@ -54,11 +68,14 @@ public class SignInActivity extends AppCompatActivity implements View.OnClickLis
 
         if(username.trim().length() > 0 && user_password.trim().length() > 0){
             if(user_password.equals(passwordCheck.getText().toString())){
-                ArrayList<String> actual_users = getIntent().getStringArrayListExtra("actualUsers");
 
-                if(!actual_users.contains(username)){
+                if(sharedPreferences.getString(username,null)==null){
                     return true;
-                }else{
+                }
+                //ArrayList<String> actual_users = getIntent().getStringArrayListExtra("actualUsers");
+                //if(!actual_users.contains(username)){
+                //    return true;
+                else{
                     alert.showAlertDialog(SignInActivity.this, "Atencion!", "Ya existe el usuario especificado", false);
                     return false;
                 }
