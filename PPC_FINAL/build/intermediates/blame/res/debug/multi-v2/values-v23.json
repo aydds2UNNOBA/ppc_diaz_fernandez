@@ -4,6 +4,25 @@
             "outputFile": "C:\\Users\\Informatica\\Documents\\David\\PPC\\TP_FINAL_PPC_UNNOBA\\TP_FINAL_PPC_UNNOBA\\PPC_FINAL\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Informatica\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-1.0.0.aar\\70538420f15efabc76d74fd5dbf8d0f1\\res\\values-v23\\values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "2646",
+                        "endLines": "39",
+                        "endColumns": "12",
+                        "endOffsets": "2791"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Informatica\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\230974b4f212e5f7d0a619009e0dcd1b\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",

@@ -30,7 +30,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     TextView bienvenida1,bienvenida2,userName;
-    Button botonCerrarSesion;
+    Button botonCerrarSesion,listarObras;
     SharedPreferences sharedPreferences;
     SharedPreferences.Editor editor;
     Gson gson;
@@ -46,6 +46,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         userName = (TextView) findViewById(R.id.userName);
         botonCerrarSesion = (Button) findViewById(R.id.botonCerrarSesion);
         botonCerrarSesion.setOnClickListener(this);
+        listarObras = (Button) findViewById(R.id.listarObras);
+        listarObras.setOnClickListener(this);
         sharedPreferences = getSharedPreferences(LoginActivity.S_PREFERENCES, Context.MODE_PRIVATE);
         userName.setText(sharedPreferences.getString("user","invitado"));
         cola = Volley.newRequestQueue(this);
@@ -77,7 +79,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
     private void llenar_lista(JSONArray source){
         obras = Arrays.asList(gson.fromJson(source.toString(),Obra[].class));
-        
+
     }
     @Override
     public void onClick(View v) {
@@ -102,28 +104,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         .setNegativeButton("No", null)
                         .show();
                 break;
-            case R.id.geolocacion:
+            case R.id.listarObras:
                 //TODO: decidir que hacer aca, la actividad no PIDE un mapa, solo un listado
-                /*JsonObjectRequest json_request = new JsonObjectRequest(Request.Method.GET,url,null,
-                        new Response.Listener<JSONObject>() {
+                
+                break;
 
-                    @Override
-                    public void onResponse(JSONObject response) {
-                        System.out.println("Response: " + response.toString());
-                    }
-                }, new Response.ErrorListener() {
-
-                    @Override
-                    public void onErrorResponse(VolleyError error) {
-                        System.out.println("ERROR: hubo un error al conectar con el Web Service en [ "+url+" ]");
-
-                    }
-                });
-
-                //Intent goToMap = new Intent(MainActivity.this,LocacionActivity.class);
-                //startActivity(goToMap);
-                cola.add(json_request);
-                break;*/
         }
     }
 

@@ -1,7 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 27
+    compileSdkVersion 28
     defaultConfig {
         applicationId "ar.edu.unnoba.ppc.dfernandez.tp_final_ppc_unnoba"
         minSdkVersion 23
@@ -28,4 +28,5 @@ dependencies {
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.google.android.material:material:1.0.0'
 }

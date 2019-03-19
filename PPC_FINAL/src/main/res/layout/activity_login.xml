@@ -50,7 +50,7 @@
                     android:textSize="30dp"
                     />
 
-                <EditText
+            <EditText
                     android:id="@+id/password"
                     android:layout_marginTop="35dp"
                     android:layout_width="match_parent"
@@ -75,16 +75,12 @@
                 android:background="#ffffff"
                 android:textSize="30dp"
                 android:textColor="@color/colorAccent"/>
-            <!--<Button
-                android:id="@+id/registrar_nuevo"
-                style="?android:textAppearanceSmall"
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/material_unelevated_button"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="40dp"
-                android:text="@string/registrarse"
-                android:layout_gravity="center_horizontal"
-                android:background="#ffffff"
-                android:textSize="20dp"/>-->
+                android:text="@string/pruebaMaterial"/>
 
         </LinearLayout>
     </ScrollView>

@@ -1,13 +1,14 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-47:12
+ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-48:12
 MERGED from [com.android.volley:volley:1.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\510d0397da0d82d9d5a113f11278a6f9\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\230974b4f212e5f7d0a619009e0dcd1b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2ca4590f93a7a5a72eff4ee44c544945\AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\1d89bd66e33d85edd6c6cd85ffae082f\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\01d6d1b4b8ee0e3c10815b2db28b64da\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\09ab60a21dd0ec91aa33e8e711347220\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7f95d7e08c7ffe1a9f3e212d1d692f8d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\f0f96b3ba9342ab5cb024d212a27d7db\AndroidManifest.xml:17:1-29:12
@@ -19,45 +20,76 @@ MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Informatica\.
 MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\132dc84e1c1057e4c7ee2252aa76198c\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b052d37bc0c95f0e21f2018abf66585d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e82764c181b192f19af2b7e42bc01f98\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\7754c760ee697b574d78016e3ba7e6e2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\44972cb0f36cb99b9f769fe1c6d4149f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\b2a33cd7db7f00f4d576424430cea2e6\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\02b6af7cafdd3de5d82d7f6fb1daa831\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\858acb2c506f5d2210dc170275ad85db\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\296be6484c5c065d18b539e2bf099bbd\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\d4b62739f74243b44e4dd291969753ca\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\0ecdda4ca3ee257e7755632f72814f95\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\eca6a83bf6e15b603bf6db4cfafedb48\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\c9ede1aa23e357a4d9754be5355fa4b3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\4c02eafff6a6cdb7b6d7a9b4ce321294\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\ef27bf3f44f173f573c4b83b4a06cdc5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\933e99dbe5c313b97cccfadf5b164e13\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\76ceb8c9128e03f9a1e3138e088f2bc7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\77cb34db107846f6887f66c6bde4f9b3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\53b54d774068b5798f892c3852276079\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c9c8cd99363a406106708c59f641878e\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\70538420f15efabc76d74fd5dbf8d0f1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\289b2b9556d84773ad3d74eb450b0117\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\e923b621f0093ad4a5686c2b7d98fa6e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\ed260ba4b89786f2e0fbf96fc6fba367\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\f4142adffd1359988aff8f071c50e496\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\f71333f08dce2a277ed5d518de2afc75\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\c83e02e2df8d360aec5002621146122c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\562c4df6a44701f89502083e5c2abb06\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\2e2d07cd5e9aed3d1ce51754558da869\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\a97cd1aae640cc62cab71182864b77ff\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\774e0101b0bce986bd219a30fc681f12\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\118f74f0b986e60ccc3f63d1d1b6a8e1\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\436818708672b85513ea880e09f78ddc\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7f604e854582b8d21d45702f417c2390\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c379e2cd41abf6069af0773ec0559926\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\d31673549c51b7aa44104b9b88fc5fa5\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-47:12
-INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-47:12
+INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-48:12
 	package
 		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:3:5-63
 		INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-47:12
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-47:12
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:1-48:12
 		INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:10:5-79
+ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:10:22-76
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:9:22-76
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:11:5-67
+ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:10:5-67
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\1d89bd66e33d85edd6c6cd85ffae082f\AndroidManifest.xml:24:5-67
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\1d89bd66e33d85edd6c6cd85ffae082f\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:11:22-64
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:10:22-64
 application
-ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:13:5-45:19
+ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:12:5-46:19
 MERGED from [com.android.volley:volley:1.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\510d0397da0d82d9d5a113f11278a6f9\AndroidManifest.xml:9:5-20
 MERGED from [com.android.volley:volley:1.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\volley-1.1.0.aar\510d0397da0d82d9d5a113f11278a6f9\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2ca4590f93a7a5a72eff4ee44c544945\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2ca4590f93a7a5a72eff4ee44c544945\AndroidManifest.xml:9:5-20
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\1d89bd66e33d85edd6c6cd85ffae082f\AndroidManifest.xml:30:5-36:19
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\1d89bd66e33d85edd6c6cd85ffae082f\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\01d6d1b4b8ee0e3c10815b2db28b64da\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\01d6d1b4b8ee0e3c10815b2db28b64da\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\f0f96b3ba9342ab5cb024d212a27d7db\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\f0f96b3ba9342ab5cb024d212a27d7db\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\a4a958e47939f393cd39507e367c36a7\AndroidManifest.xml:7:5-20
@@ -68,52 +100,64 @@ MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Informatica\.gradle
 MERGED from [com.android.support:support-v4:26.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\1da836454ae7392bec94c0ca6a1d0ea3\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\9f58043c581489deea9fd2f7575a9a67\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\9f58043c581489deea9fd2f7575a9a67\AndroidManifest.xml:25:5-29:19
+MERGED from [androidx.core:core:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c9c8cd99363a406106708c59f641878e\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c9c8cd99363a406106708c59f641878e\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\289b2b9556d84773ad3d74eb450b0117\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\289b2b9556d84773ad3d74eb450b0117\AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c9c8cd99363a406106708c59f641878e\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:17:9-35
 	android:label
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:16:9-41
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:15:9-41
 	android:roundIcon
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:17:9-54
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:16:9-54
 	android:icon
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:15:9-43
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:14:9-43
 	android:allowBackup
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:14:9-35
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:13:9-35
 	android:theme
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:19:9-40
-meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:29:9-31:55
-	android:value
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:31:13-52
-	android:name
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:30:13-58
-activity#ar.edu.unnoba.ppc.dfernandez.tp_final_ppc_unnoba.LocacionActivity
-ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:33:9-35:72
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:18:9-40
+activity#ar.edu.unnoba.ppc.dfernandez.tp_final_ppc_unnoba.ObrasActivity
+ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:19:9-21:69
 	android:label
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:35:13-60
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:21:13-57
 	android:name
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:34:13-45
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:20:13-42
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:30:9-32:55
+	android:value
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:32:13-52
+	android:name
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:31:13-58
+activity#ar.edu.unnoba.ppc.dfernandez.tp_final_ppc_unnoba.LocacionActivity
+ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:34:9-36:63
+	android:label
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:36:13-60
+	android:name
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:35:13-45
 activity#ar.edu.unnoba.ppc.dfernandez.tp_final_ppc_unnoba.LoginActivity
-ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:36:9-42:20
+ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:37:9-43:20
 	android:name
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:36:19-48
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:37:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:37:13-41:29
+ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:38:17-69
+ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:38:25-66
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:40:17-77
+ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:40:27-74
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:41:27-74
 activity#ar.edu.unnoba.ppc.dfernandez.tp_final_ppc_unnoba.MainActivity
-ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:43:9-50
+ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:44:9-50
 	android:name
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:43:19-47
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:44:19-47
 activity#ar.edu.unnoba.ppc.dfernandez.tp_final_ppc_unnoba.SignInActivity
-ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:44:9-52
+ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:45:9-52
 	android:name
-		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:44:19-49
+		ADDED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml:45:19-49
 uses-sdk
 INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Informatica\Documents\David\PPC\TP_FINAL_PPC_UNNOBA\TP_FINAL_PPC_UNNOBA\PPC_FINAL\src\main\AndroidManifest.xml
@@ -126,6 +170,8 @@ MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\In
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\2ca4590f93a7a5a72eff4ee44c544945\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\1d89bd66e33d85edd6c6cd85ffae082f\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.1.0.aar\1d89bd66e33d85edd6c6cd85ffae082f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\01d6d1b4b8ee0e3c10815b2db28b64da\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\material-1.0.0.aar\01d6d1b4b8ee0e3c10815b2db28b64da\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\09ab60a21dd0ec91aa33e8e711347220\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\09ab60a21dd0ec91aa33e8e711347220\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\7f95d7e08c7ffe1a9f3e212d1d692f8d\AndroidManifest.xml:20:5-44
@@ -148,6 +194,64 @@ MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Informatica
 MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\b052d37bc0c95f0e21f2018abf66585d\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e82764c181b192f19af2b7e42bc01f98\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\e82764c181b192f19af2b7e42bc01f98\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\7754c760ee697b574d78016e3ba7e6e2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\7754c760ee697b574d78016e3ba7e6e2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\44972cb0f36cb99b9f769fe1c6d4149f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\44972cb0f36cb99b9f769fe1c6d4149f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\b2a33cd7db7f00f4d576424430cea2e6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\recyclerview-1.0.0.aar\b2a33cd7db7f00f4d576424430cea2e6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\02b6af7cafdd3de5d82d7f6fb1daa831\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\02b6af7cafdd3de5d82d7f6fb1daa831\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\858acb2c506f5d2210dc170275ad85db\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\858acb2c506f5d2210dc170275ad85db\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\296be6484c5c065d18b539e2bf099bbd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\296be6484c5c065d18b539e2bf099bbd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\d4b62739f74243b44e4dd291969753ca\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\transition-1.0.0.aar\d4b62739f74243b44e4dd291969753ca\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\0ecdda4ca3ee257e7755632f72814f95\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\0ecdda4ca3ee257e7755632f72814f95\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\eca6a83bf6e15b603bf6db4cfafedb48\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\eca6a83bf6e15b603bf6db4cfafedb48\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\c9ede1aa23e357a4d9754be5355fa4b3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\c9ede1aa23e357a4d9754be5355fa4b3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\4c02eafff6a6cdb7b6d7a9b4ce321294\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\4c02eafff6a6cdb7b6d7a9b4ce321294\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\ef27bf3f44f173f573c4b83b4a06cdc5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\ef27bf3f44f173f573c4b83b4a06cdc5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\933e99dbe5c313b97cccfadf5b164e13\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\933e99dbe5c313b97cccfadf5b164e13\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\76ceb8c9128e03f9a1e3138e088f2bc7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\76ceb8c9128e03f9a1e3138e088f2bc7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\77cb34db107846f6887f66c6bde4f9b3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\77cb34db107846f6887f66c6bde4f9b3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\53b54d774068b5798f892c3852276079\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\53b54d774068b5798f892c3852276079\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c9c8cd99363a406106708c59f641878e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\core-1.0.0.aar\c9c8cd99363a406106708c59f641878e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\70538420f15efabc76d74fd5dbf8d0f1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\cardview-1.0.0.aar\70538420f15efabc76d74fd5dbf8d0f1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\289b2b9556d84773ad3d74eb450b0117\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\289b2b9556d84773ad3d74eb450b0117\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\e923b621f0093ad4a5686c2b7d98fa6e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\e923b621f0093ad4a5686c2b7d98fa6e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\ed260ba4b89786f2e0fbf96fc6fba367\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\ed260ba4b89786f2e0fbf96fc6fba367\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\f4142adffd1359988aff8f071c50e496\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\f4142adffd1359988aff8f071c50e496\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\f71333f08dce2a277ed5d518de2afc75\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\f71333f08dce2a277ed5d518de2afc75\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\c83e02e2df8d360aec5002621146122c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\c83e02e2df8d360aec5002621146122c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\562c4df6a44701f89502083e5c2abb06\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\562c4df6a44701f89502083e5c2abb06\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\2e2d07cd5e9aed3d1ce51754558da869\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\2e2d07cd5e9aed3d1ce51754558da869\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\a97cd1aae640cc62cab71182864b77ff\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\a97cd1aae640cc62cab71182864b77ff\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\774e0101b0bce986bd219a30fc681f12\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\774e0101b0bce986bd219a30fc681f12\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\118f74f0b986e60ccc3f63d1d1b6a8e1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\118f74f0b986e60ccc3f63d1d1b6a8e1\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\436818708672b85513ea880e09f78ddc\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\436818708672b85513ea880e09f78ddc\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Informatica\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7f604e854582b8d21d45702f417c2390\AndroidManifest.xml:20:5-44

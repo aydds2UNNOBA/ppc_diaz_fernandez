@@ -11,5 +11,7 @@
     <string name="registrar">Registrar</string>
     <string name="registrarse">Nuevo usuario? Registrarse</string>
     <string name="title_activity_locacion">Map</string>
-    <string name="botonGeolocacion">Ver mapa</string>
+    <string name="botonGeolocacion">Listar obras</string>
+    <string name="pruebaMaterial">Prueba material</string>
+    <string name="title_activity_obras">ObrasActivity</string>
 </resources>
